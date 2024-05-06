@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu li a {
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #101010;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #1AAB7B;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #1AAB7B;
+    border: 1px solid #1AAB7B;
+}
+
+.business {
+    padding: 100px 0;
+    display: flex;
+    gap: 74px;
+}
+
+.business-text {
+    max-width: 550px;
+
+}
+
+.business-text h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 78.4px;
+}
+
+p {
+    color: #636f87;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 20px 0;
+}
+
+.btn-green {
+    padding: 20px 40px;
+    background: #1AAB7B;
+    color: white;
+    border: 1px solid #1AAB7B;
+    border-radius: 8px;
+}
+
+.btn-green:hover {
+    background-color: white;
+    color: #1AAB7B;
+}
+
+.help {
+    padding: 50px 0;
+    background-color: #f2f4f4;
+}
+
+.help h2 {
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid #E1E7ED;
+    max-width: 384px;
+    padding: 40px 30px;
+    border-radius: 6px;
+
+}
+
+.card h3::after {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+
+.ota {
+    margin: 50px 0;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card:hover {
+    background-color: rgb(96, 147, 96);
+    color: wheat;
+}
+
+.mars {
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+.mars p {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.mars-bg {
+    background-image: url(./img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0;
+}
+
+form {
+    background-color: black;
+    opacity: 0.7;
+    width: 565px;
+    padding: 58px;
+    margin: 10px auto;
+}
+
+.input {
+    width: 463px;
+    height: 46px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(29, 28, 28);
+     padding:50px 0;
+}
+
+ footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
